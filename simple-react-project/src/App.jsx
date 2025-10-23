@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   <div>
-    <h1>hello developer</h1>
-    <p>jdfakjghlafls</p>
-   </div>
-  )
+    <div className="avatar">
+  <div className="w-24 rounded">
+    <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp" />
+  </div>
+</div>
+  );
 }
 
-export default App
+export default App;
